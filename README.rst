@@ -1,6 +1,7 @@
 *****************************************
 MarkovText: A Markov Chain text generator
 *****************************************
+[![Build Status](https://travis-ci.org/kwkelly/MarkovText.svg?branch=master)](https://travis-ci.org/kwkelly/MarkovText)
 
 MarkovText is a simple Python library for reandomly generating strings of
 text based on sample text. A Markov chain text generator uses the frequency of
