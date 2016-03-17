@@ -25,7 +25,7 @@ class Markov:
         sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s', text)
         # '' is a special symbol for the start of a sentence like pymarkovchain uses
         for sentence in sentences:
-            words = sentence.strip().split()  # split each sentence into its constituent words
+            words = sentence.strip().replace('"','').split()  # split each sentence into its constituent words
             if len(words) == 0:
                 continue
 
