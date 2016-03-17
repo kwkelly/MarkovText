@@ -40,7 +40,7 @@ Future Needs
 Installation
 ============
 
-At this time we only support installing via the python `setup.py`
+The recommended way to install this package is with pip
 
 .. code-block:: bash
 
