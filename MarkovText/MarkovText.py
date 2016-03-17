@@ -56,7 +56,7 @@ class Markov:
         # next word
         sentence = list(start)
         nxt = self.next_word(start)
-        while n:
+        while nxt:
             sentence.append(nxt)
             nxt = self.next_word(sentence[-self.n:])
         return ' '.join(sentence)
@@ -83,7 +83,7 @@ class Markov:
     def create_sentences(self, num, start=("",)):
         par = ""
         for _ in range(num):
-            par = par + create_sentence(start)
+            par = par + self.create_sentence(start)
         return par
 
 
