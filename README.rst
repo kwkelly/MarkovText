@@ -45,6 +45,7 @@ At this time we only support installing via the python `setup.py`
     $ pip install MarkovText
 
 .. code-block:: bash
+
     $ git clone https://github.com/kwkelly/MarkovText.git
     $ cd MarkovText
     $ python setup.py
